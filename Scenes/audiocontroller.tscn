@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://7g7oyshm5bc4"]
+
+[ext_resource type="Script" uid="uid://bpyhpj7xgwfxh" path="res://Scenes/audiocontroller.gd" id="1_0rxk0"]
+[ext_resource type="AudioStream" uid="uid://bmsy61xpipy01" path="res://Audio/mouseclick1.ogg" id="1_eo76y"]
+[ext_resource type="AudioStream" uid="uid://clwe0wupwi4n" path="res://Audio/Ocean Sound Nature Sounds.mp3" id="2_0rxk0"]
+
+[node name="audiocontroller" type="Node2D"]
+script = ExtResource("1_0rxk0")
+
+[node name="click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_eo76y")
+
+[node name="oceanbackground" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_0rxk0")
+volume_db = -20.0
+autoplay = true
+parameters/looping = true
