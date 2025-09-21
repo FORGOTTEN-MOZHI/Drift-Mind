@@ -27,6 +27,6 @@ Each path is designed to guide the user toward self-awareness and emotional clar
 - Music is CC0 licensed and free for use.
 - Text content was collaboratively generated using AI tools.
 
-## 🚀 Cannot Run Due To Github File Limitations
+## 🚀 Cannot Run Due To Github File Limitations This Repo Only Contains Source Code
 
 
